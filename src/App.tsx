@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react';
 import { ArrowDownRight, ArrowRight, ArrowUpRight, Instagram, Menu, X } from 'lucide-react';
 
 const images = {
-  hero: '/images/hero/Football_Basics_onder_nachtlicht.png',
-  training: '/images/training/PXL_20250910_131029577.jpg',
-  skills: '/images/skills/PXL_20251001_134832706.MP.jpg',
-  philosophy: '/images/philosophy/PXL_20251019_093221285_(1).jpg',
-  cta: '/images/cta/PXL_20251105_144426083.MP_(1).jpg',
+  hero: '/images/hero/hero.jpg',
+  training: '/images/training/training.jpg',
+  skills: '/images/skills/skills.jpg',
+  philosophy: '/images/philosophy/philosophy.jpg',
+  cta: '/images/cta/cta.jpg',
 };
 
 const navItems = [
@@ -34,8 +34,8 @@ const skillWords = [
 function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <a className={`brand-lockup ${compact ? 'brand-lockup-footer' : ''}`} href="#home" aria-label="Football Basics home">
-      <img className="brand-logo-full" src="/images/branding/ChatGPT_Image_14_sep_2026,_22_18_33.png" alt="Football Basics" />
-      <img className="brand-logo-crest" src="/images/branding/ChatGPT_Image_14_sep_2026,_22_19_36.png" alt="Football Basics" />
+      <img className="brand-logo-full" src="/images/branding/fb-logo-full.svg" alt="Football Basics" />
+      <img className="brand-logo-crest" src="/images/branding/fb-crest.svg" alt="Football Basics" />
     </a>
   );
 }
